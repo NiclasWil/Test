@@ -1,0 +1,43 @@
+.container-main {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid: auto-flow / 30% 70%;
+}
+
+.side-nav{
+    grid-column: 1 / 1;
+    background-color: slategrey;
+    height: 100%;
+}
+
+.content {
+    grid-column: 2 / 2;
+    display: grid;
+    height: 100%;
+    grid: auto-flow / repeat(8, 12%);
+}
+
+.one {
+    grid-column: span 3;
+    background-color: aquamarine;
+    /* height: 35%; */
+}
+
+.two {
+    grid-column: span 3;
+    background-color: blueviolet;
+    height: 45%;
+}
+
+.three {
+    grid-column: span 2;
+    background-color: green;
+    height: 35%;
+
+}
+
+.four {
+    grid-column: span 3;
+    background-color: yellow;
+}
